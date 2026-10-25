@@ -1,0 +1,4 @@
+interface:
+  display_name: "General writing"
+  short_description: "Remove AI tells from final answers and prose"
+  default_prompt: "Use $general-writing to make the final response clear, specific, and free of stock AI phrasing."
