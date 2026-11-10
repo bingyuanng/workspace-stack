@@ -42,7 +42,7 @@ After: "The export now handles customers with no orders."
 
 ### 5. Remove conversational padding and document narration
 
-Cut praise, acknowledgments, staged candor, closing offers, and announcements about the explanation. Keep necessary questions and letter salutations.
+Cut praise, acknowledgments, staged candor, closing offers, and announcements about the explanation. Avoid self-justifying explanations of earlier advice, especially closing sentences that defend a previous suggestion instead of helping the reader decide. Keep corrections and reasons for changed advice when they affect the reader's decision; state what changed and why directly. Keep necessary questions and letter salutations.
 
 Before: "Great question! Certainly, I can help. The limit is 20 files. I hope this helps! Let me know if you'd like more details."
 After: "The limit is 20 files."
@@ -52,6 +52,10 @@ After: "The queue retries failed jobs indefinitely."
 
 Before: "This section explains the timeout. The request stops after 30 seconds."
 After: "The request stops after 30 seconds."
+
+Context: The user asks which worker layout to use. The answer already explains the trade-offs; no consequential change in advice needs explaining.
+Before: "Use one worker binary with a role flag. My earlier directory split was an option, not a better-practice requirement."
+After: "Use one worker binary with a role flag."
 
 ## Words and claims
 

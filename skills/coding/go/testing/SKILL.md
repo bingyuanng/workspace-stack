@@ -1,11 +1,11 @@
 ---
-name: testing
-description: Choose and write high-value tests when implementing behavior changes, fixing bugs, or reviewing tests. Prefer TDD and focused unit tests; avoid low-value coverage.
+name: go-testing
+description: Choose and write high-value tests in Go projects when implementing behavior changes, fixing bugs, or reviewing tests. Prefer TDD and focused unit tests; avoid low-value coverage.
 ---
 
-# Testing
+# Go testing
 
-Apply when changing behavior or designing and reviewing tests. Follow project
+Apply in Go projects when changing behavior or designing and reviewing tests. Follow project
 requirements and scale verification to the risk of the change.
 
 - Prefer TDD for behavior changes: write a focused test, confirm it fails for the
