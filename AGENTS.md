@@ -20,11 +20,23 @@ content, code, technical accuracy, citations, and the requested format and voice
 - Match investigation depth to the stakes. State consequential assumptions,
   verification gaps, and why any earlier advice changed.
 
+## Tool use
+
+Call a tool directly when one call is enough. Don't wrap a single `read`,
+`bash`, or `edit` in `codemode` just to return its output unchanged. Use
+`codemode` to batch calls, pass one tool's result to another, or substantially
+trim verbose output.
+
 ## General skill routing
 
 Each skill owns routing to its relevant child skills; follow those links only
 when they apply to the task. Use other available skills when relevant. Do not
 load every skill for every task.
+
+When the user assigns a task to Kiyo, asks to delegate work, or asks for work
+in an independent or separate agent session, read and apply
+[kiyo](/home/bingyuan/Projects/workspace-stack/skills/kiyo/SKILL.md) to launch a
+subagent. The user does not need to name Kiyo or use a slash command.
 
 ## Research paper explanations
 
